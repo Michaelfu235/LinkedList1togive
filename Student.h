@@ -6,7 +6,9 @@ using namespace std;
 
 class Student{
  public:
+  //constructor
   Student(char* newname);
+  //functions
   char* name;
   char* getName();
 };
